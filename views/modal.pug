@@ -1,0 +1,12 @@
+#modal-usuario.modal(tabindex='-1', role='dialog',data-backdrop="static",data-keyboard="false")
+  .modal-dialog(role='document')
+    form#form-usuario.modal-content
+      .modal-header
+        h5.modal-title Usuario
+      .modal-body
+        .form-group
+          label usuario
+          input.form-control(type="text", required)
+          .invalid-feedback
+      .modal-footer
+        button.btn.btn-primary(type='submit') GUARDAR
